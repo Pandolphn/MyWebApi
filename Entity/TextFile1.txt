@@ -1,0 +1,16 @@
+﻿ Install-Package MySql.EntityFrameworkCore -Pre
+ Install-Package Pomelo.EntityFrameworkCore.MySql
+ Install-Package Microsoft.EntityFrameworkCore.Tools
+ Install-Package Microsoft.VisualStudio.Web.CodeGeneration.Design
+ 
+ Scaffold-DbContext "server=localhost;userid=root;pwd=123456;port=3306;database=dbtest;sslmode=none;" Pomelo.EntityFrameworkCore.MySql -OutputDir Models -Force
+
+
+
+ sql server:
+ Install-Package Microsoft.EntityframeworkCore.SqlServer
+  Install-Package Microsoft.EntityFrameworkCore.Tools
+  Install-Package Microsoft.VisualStudio.Web.CodeGeneration.Design
+
+  Scaffold-DbContext -Force "Server=.;Database=DbName;User ID=sa;Password=123;" Microsoft.EntityFrameworkCore.SqlServer
+  -OutputDir Models
