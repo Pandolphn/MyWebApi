@@ -1,0 +1,73 @@
+{
+  //单地址
+  //"Routes": [
+  //  {
+  //    "DownstreamPathTemplate": "/api/{url}", //服务地址
+  //    "DpwmstreamScheme": "http",
+  //    "DownstreamHostAndPorts": [
+  //      {
+  //        "Host": "127.0.0.1",
+  //        "Port": 5291 //服务端口
+  //      }
+  //    ],
+  //    "UpstreamPathTemplate": "/T/{url}", //网关地址
+  //    "UpsteamHttpMethod": [ "Get", "Post" ]
+  //  }
+  //]
+
+  //多地址负载均衡
+  //"Routes": [
+  //  {
+  //    "DownstreamPathTemplate": "/api/{url}", //服务地址
+  //    "DpwmstreamScheme": "http",
+  //    "DownstreamHostAndPorts": [
+  //      {
+  //        "Host": "127.0.0.1",
+  //        "Port": 5726 //服务端口
+  //      },
+  //      {
+  //        "Host": "127.0.0.1",
+  //        "Port": 5727 //服务端口
+  //      }  
+  //    ],
+  //    "UpstreamPathTemplate": "/T/{url}", //网关地址
+  //    "UpsteamHttpMethod": [ "Get", "Post" ],
+  //    "LoadBalanceOptions": {
+  //      "Type": "RoundRobin" //轮询
+  //      //LeastConnection 最少链接数服务器
+  //      //NoLoadBalance 不负载均衡
+  //      //CookieStickySessions 会话粘滞
+  //    }
+  //  }
+  //]
+
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/{url}", //服务地址
+      "DpwmstreamScheme": "http",
+      "UpstreamPathTemplate": "/T/{url}", //网关地址
+      "UpsteamHttpMethod": [ "Get", "Post" ],
+      "UseServiceDiscovery": true,
+      "ServiceName": "MainWebService", //consul服务名称
+      "LoadBalanceOptions": {
+        "Type": "RoundRobin" //轮询
+        //LeastConnection 最少链接数服务器
+        //NoLoadBalance 不负载均衡
+        //CookieStickySessions 会话粘滞
+      }
+     //, "FileCacheOptions": { //缓存
+     //   "TtlSeconds": 5,
+     //   "Region": "UserCache" //可以调用api缓存清理
+     // }
+
+    }
+  ],
+  "GlobalConfiguration": {
+    "ServiceDiscovertProvider": {
+      "Host": "127.0.0.1",
+      "Port": 8500,
+      "Type": "Consul"
+    }
+  }
+   
+}

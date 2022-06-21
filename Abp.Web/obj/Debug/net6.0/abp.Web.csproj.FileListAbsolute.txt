@@ -877,3 +877,10 @@ C:\Users\admin\Desktop\demo\MyWebApi\Abp.Web\obj\Debug\net6.0\staticwebassets.de
 C:\Users\admin\Desktop\demo\MyWebApi\Abp.Web\obj\Debug\net6.0\scopedcss\bundle\Abp.Web.styles.css
 C:\Users\admin\Desktop\demo\MyWebApi\Abp.Web\obj\Debug\net6.0\Abp.Web.csproj.CopyComplete
 C:\Users\admin\Desktop\demo\MyWebApi\Abp.Web\obj\Debug\net6.0\Abp.Web.genruntimeconfig.cache
+C:\Users\admin\Desktop\demo\MyWebApi\Abp.Web\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\Users\admin\Desktop\demo\MyWebApi\Abp.Web\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\admin\Desktop\demo\MyWebApi\Abp.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\admin\Desktop\demo\MyWebApi\Abp.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\admin\Desktop\demo\MyWebApi\Abp.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\admin\Desktop\demo\MyWebApi\Abp.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\admin\Desktop\demo\MyWebApi\Abp.Web\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll

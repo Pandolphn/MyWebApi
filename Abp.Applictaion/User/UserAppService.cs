@@ -32,9 +32,9 @@ namespace Abp.Applictaion.User
         /// </summary>
         /// <returns></returns>
         /// <exception cref="NotImplementedException"></exception>
-        public virtual async Task<UserDto> Create(UserDto dto)
-        {
-            throw new NotImplementedException();
-        }
+        //public virtual async Task<UserDto> Create(UserDto dto)
+        //{
+        //    throw new NotImplementedException();
+        //}
     }
 }
