@@ -19,6 +19,7 @@ namespace Abp.Web.Controllers
         {
             this._userAppService = userAppService;
         }
+        
         [HttpGet]
         public async Task<UserDto> Get()
         {

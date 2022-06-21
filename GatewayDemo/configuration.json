@@ -55,11 +55,15 @@
         //NoLoadBalance 不负载均衡
         //CookieStickySessions 会话粘滞
       }
-     //, "FileCacheOptions": { //缓存
-     //   "TtlSeconds": 5,
-     //   "Region": "UserCache" //可以调用api缓存清理
-     // }
-
+      //, "FileCacheOptions": { //缓存
+      //   "TtlSeconds": 5,
+      //   "Region": "UserCache" //可以调用api缓存清理
+      // }
+      ,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "UserGatewayKey",
+        "AllowedScoped": []
+      }
     }
   ],
   "GlobalConfiguration": {
