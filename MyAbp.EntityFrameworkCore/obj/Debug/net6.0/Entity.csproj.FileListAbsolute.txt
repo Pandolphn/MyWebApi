@@ -1,0 +1,12 @@
+C:\Users\admin\Desktop\demo\MyWebApi\Entity\bin\Debug\net6.0\Entity.deps.json
+C:\Users\admin\Desktop\demo\MyWebApi\Entity\bin\Debug\net6.0\Entity.dll
+C:\Users\admin\Desktop\demo\MyWebApi\Entity\bin\Debug\net6.0\ref\Entity.dll
+C:\Users\admin\Desktop\demo\MyWebApi\Entity\bin\Debug\net6.0\Entity.pdb
+C:\Users\admin\Desktop\demo\MyWebApi\Entity\obj\Debug\net6.0\Entity.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\demo\MyWebApi\Entity\obj\Debug\net6.0\Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\demo\MyWebApi\Entity\obj\Debug\net6.0\Entity.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\demo\MyWebApi\Entity\obj\Debug\net6.0\Entity.AssemblyInfo.cs
+C:\Users\admin\Desktop\demo\MyWebApi\Entity\obj\Debug\net6.0\Entity.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\demo\MyWebApi\Entity\obj\Debug\net6.0\Entity.dll
+C:\Users\admin\Desktop\demo\MyWebApi\Entity\obj\Debug\net6.0\ref\Entity.dll
+C:\Users\admin\Desktop\demo\MyWebApi\Entity\obj\Debug\net6.0\Entity.pdb

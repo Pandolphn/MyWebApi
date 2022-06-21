@@ -1,0 +1,428 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\admin\\Desktop\\demo\\MyWebApi\\Abp.Web\\Abp.Web.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\admin\\Desktop\\demo\\MyWebApi\\Abp.Applictaion\\Abp.Applictaion.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\admin\\Desktop\\demo\\MyWebApi\\Abp.Applictaion\\Abp.Applictaion.csproj",
+        "projectName": "Abp.Applictaion",
+        "projectPath": "C:\\Users\\admin\\Desktop\\demo\\MyWebApi\\Abp.Applictaion\\Abp.Applictaion.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\admin\\Desktop\\demo\\MyWebApi\\Abp.Applictaion\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\Desktop\\demo\\MyWebApi\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\admin\\Desktop\\demo\\MyWebApi\\MyAbp.EntityFrameworkCore\\MyAbp.EntityFrameworkCore.csproj": {
+                "projectPath": "C:\\Users\\admin\\Desktop\\demo\\MyWebApi\\MyAbp.EntityFrameworkCore\\MyAbp.EntityFrameworkCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Volo.Abp.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            },
+            "Volo.Abp.AutoMapper": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            },
+            "Volo.Abp.Ddd.Application": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\admin\\Desktop\\demo\\MyWebApi\\Abp.Domian\\Abp.Domian.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\admin\\Desktop\\demo\\MyWebApi\\Abp.Domian\\Abp.Domian.csproj",
+        "projectName": "Abp.Domian",
+        "projectPath": "C:\\Users\\admin\\Desktop\\demo\\MyWebApi\\Abp.Domian\\Abp.Domian.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\admin\\Desktop\\demo\\MyWebApi\\Abp.Domian\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\Desktop\\demo\\MyWebApi\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Volo.Abp.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            },
+            "Volo.Abp.Ddd.Domain": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\admin\\Desktop\\demo\\MyWebApi\\Abp.Web\\Abp.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\admin\\Desktop\\demo\\MyWebApi\\Abp.Web\\Abp.Web.csproj",
+        "projectName": "Abp.Web",
+        "projectPath": "C:\\Users\\admin\\Desktop\\demo\\MyWebApi\\Abp.Web\\Abp.Web.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\admin\\Desktop\\demo\\MyWebApi\\Abp.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\Desktop\\demo\\MyWebApi\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\admin\\Desktop\\demo\\MyWebApi\\Abp.Applictaion\\Abp.Applictaion.csproj": {
+                "projectPath": "C:\\Users\\admin\\Desktop\\demo\\MyWebApi\\Abp.Applictaion\\Abp.Applictaion.csproj"
+              },
+              "C:\\Users\\admin\\Desktop\\demo\\MyWebApi\\Utility\\Utility.csproj": {
+                "projectPath": "C:\\Users\\admin\\Desktop\\demo\\MyWebApi\\Utility\\Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Consul": {
+              "target": "Package",
+              "version": "[1.6.10.6, )"
+            },
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.Extensions.Logging.Log4Net.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.3.1, )"
+            },
+            "Volo.Abp.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            },
+            "Volo.Abp.Autofac": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\admin\\Desktop\\demo\\MyWebApi\\MyAbp.EntityFrameworkCore\\MyAbp.EntityFrameworkCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\admin\\Desktop\\demo\\MyWebApi\\MyAbp.EntityFrameworkCore\\MyAbp.EntityFrameworkCore.csproj",
+        "projectName": "MyAbp.EntityFrameworkCore",
+        "projectPath": "C:\\Users\\admin\\Desktop\\demo\\MyWebApi\\MyAbp.EntityFrameworkCore\\MyAbp.EntityFrameworkCore.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\admin\\Desktop\\demo\\MyWebApi\\MyAbp.EntityFrameworkCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\Desktop\\demo\\MyWebApi\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\admin\\Desktop\\demo\\MyWebApi\\Abp.Domian\\Abp.Domian.csproj": {
+                "projectPath": "C:\\Users\\admin\\Desktop\\demo\\MyWebApi\\Abp.Domian\\Abp.Domian.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Volo.Abp.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            },
+            "Volo.Abp.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            },
+            "Volo.Abp.EntityFrameworkCore.MySQL": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\admin\\Desktop\\demo\\MyWebApi\\Utility\\Utility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\admin\\Desktop\\demo\\MyWebApi\\Utility\\Utility.csproj",
+        "projectName": "Utility",
+        "projectPath": "C:\\Users\\admin\\Desktop\\demo\\MyWebApi\\Utility\\Utility.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\admin\\Desktop\\demo\\MyWebApi\\Utility\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\Desktop\\demo\\MyWebApi\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Consul": {
+              "target": "Package",
+              "version": "[1.6.10.6, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Formatters.Json": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

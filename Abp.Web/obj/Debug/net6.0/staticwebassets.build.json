@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "SAxNQl+UQa2giskiz00/IwcHoAm1ZJG4M57I2kAO2ec=",
+  "Source": "Abp.Web",
+  "BasePath": "_content/Abp.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

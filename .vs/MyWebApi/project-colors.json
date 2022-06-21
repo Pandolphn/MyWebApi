@@ -1,0 +1,61 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "6a91c4e1-2504-4a2d-a219-cac1d6a08133": {
+      "ProjectGuid": "6a91c4e1-2504-4a2d-a219-cac1d6a08133",
+      "DisplayName": "MyWebApi",
+      "ColorIndex": 0
+    },
+    "4c4cd67c-9685-4108-b7b2-81fa035f97b5": {
+      "ProjectGuid": "4c4cd67c-9685-4108-b7b2-81fa035f97b5",
+      "DisplayName": "MyAbp.EntityFrameworkCore",
+      "ColorIndex": 1
+    },
+    "d7681650-8289-4e2b-aa80-570c0f62b2b5": {
+      "ProjectGuid": "d7681650-8289-4e2b-aa80-570c0f62b2b5",
+      "DisplayName": "OrderService",
+      "ColorIndex": 2
+    },
+    "ddb06854-bf17-4608-9530-5cc3b912c5c1": {
+      "ProjectGuid": "ddb06854-bf17-4608-9530-5cc3b912c5c1",
+      "DisplayName": "Abp.Web",
+      "ColorIndex": 3
+    },
+    "bb1e3096-3ed2-4b22-b20d-1a664313fb80": {
+      "ProjectGuid": "bb1e3096-3ed2-4b22-b20d-1a664313fb80",
+      "DisplayName": "Utility",
+      "ColorIndex": 4
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "杂项文件",
+      "ColorIndex": -1
+    },
+    "12c0d63b-85ac-4300-8d37-af08bd90be52": {
+      "ProjectGuid": "12c0d63b-85ac-4300-8d37-af08bd90be52",
+      "DisplayName": "AbpWebApi",
+      "ColorIndex": 5
+    },
+    "c8a51726-09e4-4350-bd9a-7da3c9e1105e": {
+      "ProjectGuid": "c8a51726-09e4-4350-bd9a-7da3c9e1105e",
+      "DisplayName": "Abp.Domian",
+      "ColorIndex": 6
+    },
+    "ca19e066-4c77-4345-b065-42984b5a34fe": {
+      "ProjectGuid": "ca19e066-4c77-4345-b065-42984b5a34fe",
+      "DisplayName": "Abp.Applictaion",
+      "ColorIndex": 7
+    },
+    "a0327130-1841-4902-b439-25b3c337a7d2": {
+      "ProjectGuid": "a0327130-1841-4902-b439-25b3c337a7d2",
+      "DisplayName": "Abp.Web",
+      "ColorIndex": 8
+    },
+    "be085630-e978-4606-8081-2557c3c08e86": {
+      "ProjectGuid": "be085630-e978-4606-8081-2557c3c08e86",
+      "DisplayName": "MyAbp.EntityFrameworkCore",
+      "ColorIndex": 9
+    }
+  },
+  "NextColorIndex": 10
+}

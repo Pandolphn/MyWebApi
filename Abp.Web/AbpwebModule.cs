@@ -38,7 +38,8 @@ namespace Abp.Web
 
             app.UseHttpsRedirection();
 
-            app.UseAuthorization();
+             app.UseAuthorization();
+             app.UseAuthentication();
             app.UseConfiguredEndpoints();
             
             base.OnApplicationInitialization(context);

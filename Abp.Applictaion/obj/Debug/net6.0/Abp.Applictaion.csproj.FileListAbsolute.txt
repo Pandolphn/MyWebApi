@@ -1,0 +1,17 @@
+C:\Users\admin\Desktop\demo\MyWebApi\Abp.Applictaion\obj\Debug\net6.0\Abp.Applictaion.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\demo\MyWebApi\Abp.Applictaion\obj\Debug\net6.0\Abp.Applictaion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\demo\MyWebApi\Abp.Applictaion\obj\Debug\net6.0\Abp.Applictaion.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\demo\MyWebApi\Abp.Applictaion\obj\Debug\net6.0\Abp.Applictaion.AssemblyInfo.cs
+C:\Users\admin\Desktop\demo\MyWebApi\Abp.Applictaion\obj\Debug\net6.0\Abp.Applictaion.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\demo\MyWebApi\Abp.Applictaion\bin\Debug\net6.0\Abp.Applictaion.deps.json
+C:\Users\admin\Desktop\demo\MyWebApi\Abp.Applictaion\bin\Debug\net6.0\Abp.Applictaion.dll
+C:\Users\admin\Desktop\demo\MyWebApi\Abp.Applictaion\bin\Debug\net6.0\ref\Abp.Applictaion.dll
+C:\Users\admin\Desktop\demo\MyWebApi\Abp.Applictaion\bin\Debug\net6.0\Abp.Applictaion.pdb
+C:\Users\admin\Desktop\demo\MyWebApi\Abp.Applictaion\bin\Debug\net6.0\Abp.Domian.dll
+C:\Users\admin\Desktop\demo\MyWebApi\Abp.Applictaion\bin\Debug\net6.0\MyAbp.EntityFrameworkCore.dll
+C:\Users\admin\Desktop\demo\MyWebApi\Abp.Applictaion\bin\Debug\net6.0\MyAbp.EntityFrameworkCore.pdb
+C:\Users\admin\Desktop\demo\MyWebApi\Abp.Applictaion\bin\Debug\net6.0\Abp.Domian.pdb
+C:\Users\admin\Desktop\demo\MyWebApi\Abp.Applictaion\obj\Debug\net6.0\Abp.Applictaion.csproj.CopyComplete
+C:\Users\admin\Desktop\demo\MyWebApi\Abp.Applictaion\obj\Debug\net6.0\Abp.Applictaion.dll
+C:\Users\admin\Desktop\demo\MyWebApi\Abp.Applictaion\obj\Debug\net6.0\ref\Abp.Applictaion.dll
+C:\Users\admin\Desktop\demo\MyWebApi\Abp.Applictaion\obj\Debug\net6.0\Abp.Applictaion.pdb

@@ -1,0 +1,12 @@
+C:\Users\admin\Desktop\demo\MyWebApi\Utility\bin\Debug\net6.0\Utility.deps.json
+C:\Users\admin\Desktop\demo\MyWebApi\Utility\bin\Debug\net6.0\Utility.dll
+C:\Users\admin\Desktop\demo\MyWebApi\Utility\bin\Debug\net6.0\ref\Utility.dll
+C:\Users\admin\Desktop\demo\MyWebApi\Utility\bin\Debug\net6.0\Utility.pdb
+C:\Users\admin\Desktop\demo\MyWebApi\Utility\obj\Debug\net6.0\Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\demo\MyWebApi\Utility\obj\Debug\net6.0\Utility.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\demo\MyWebApi\Utility\obj\Debug\net6.0\Utility.AssemblyInfo.cs
+C:\Users\admin\Desktop\demo\MyWebApi\Utility\obj\Debug\net6.0\Utility.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\demo\MyWebApi\Utility\obj\Debug\net6.0\Utility.dll
+C:\Users\admin\Desktop\demo\MyWebApi\Utility\obj\Debug\net6.0\ref\Utility.dll
+C:\Users\admin\Desktop\demo\MyWebApi\Utility\obj\Debug\net6.0\Utility.pdb
+C:\Users\admin\Desktop\demo\MyWebApi\Utility\obj\Debug\net6.0\Utility.csproj.AssemblyReference.cache

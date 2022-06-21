@@ -12,7 +12,7 @@ namespace Abp.Web.Consul
             //获取log4net的logger对象
             var logger=LogManager.GetLogger(typeof(ConsulRegistryExtensions));
             var optionMonitor = webApplication.Services.GetService<IOptionsMonitor<ConsulOptions>>();
-            var consulOptions = optionMonitor!.CurrentValue;
+            var consulOptions = optionMonitor!.CurrentValue!;
             //获取心跳检测ip和port
             var ip = webApplication.Configuration["ip"] ?? consulOptions.IP;
             var port=webApplication.Configuration["port"]??consulOptions.Port;

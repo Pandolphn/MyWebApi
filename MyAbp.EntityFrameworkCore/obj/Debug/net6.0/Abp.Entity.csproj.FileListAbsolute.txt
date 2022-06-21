@@ -1,0 +1,15 @@
+C:\Users\admin\Desktop\demo\MyWebApi\Entity\bin\Debug\net6.0\Abp.Entity.deps.json
+C:\Users\admin\Desktop\demo\MyWebApi\Entity\bin\Debug\net6.0\Abp.Entity.dll
+C:\Users\admin\Desktop\demo\MyWebApi\Entity\bin\Debug\net6.0\ref\Abp.Entity.dll
+C:\Users\admin\Desktop\demo\MyWebApi\Entity\bin\Debug\net6.0\Abp.Entity.pdb
+C:\Users\admin\Desktop\demo\MyWebApi\Entity\bin\Debug\net6.0\Abp.Domian.dll
+C:\Users\admin\Desktop\demo\MyWebApi\Entity\bin\Debug\net6.0\Abp.Domian.pdb
+C:\Users\admin\Desktop\demo\MyWebApi\Entity\obj\Debug\net6.0\Abp.Entity.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\demo\MyWebApi\Entity\obj\Debug\net6.0\Abp.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\demo\MyWebApi\Entity\obj\Debug\net6.0\Abp.Entity.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\demo\MyWebApi\Entity\obj\Debug\net6.0\Abp.Entity.AssemblyInfo.cs
+C:\Users\admin\Desktop\demo\MyWebApi\Entity\obj\Debug\net6.0\Abp.Entity.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\demo\MyWebApi\Entity\obj\Debug\net6.0\Abp.Entity.csproj.CopyComplete
+C:\Users\admin\Desktop\demo\MyWebApi\Entity\obj\Debug\net6.0\Abp.Entity.dll
+C:\Users\admin\Desktop\demo\MyWebApi\Entity\obj\Debug\net6.0\ref\Abp.Entity.dll
+C:\Users\admin\Desktop\demo\MyWebApi\Entity\obj\Debug\net6.0\Abp.Entity.pdb

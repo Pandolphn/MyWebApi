@@ -1,0 +1,12 @@
+C:\Users\admin\Desktop\demo\MyWebApi\Abp.Domian\bin\Debug\net6.0\Abp.Domian.deps.json
+C:\Users\admin\Desktop\demo\MyWebApi\Abp.Domian\bin\Debug\net6.0\Abp.Domian.dll
+C:\Users\admin\Desktop\demo\MyWebApi\Abp.Domian\bin\Debug\net6.0\ref\Abp.Domian.dll
+C:\Users\admin\Desktop\demo\MyWebApi\Abp.Domian\bin\Debug\net6.0\Abp.Domian.pdb
+C:\Users\admin\Desktop\demo\MyWebApi\Abp.Domian\obj\Debug\net6.0\Abp.Domian.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\demo\MyWebApi\Abp.Domian\obj\Debug\net6.0\Abp.Domian.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\demo\MyWebApi\Abp.Domian\obj\Debug\net6.0\Abp.Domian.AssemblyInfo.cs
+C:\Users\admin\Desktop\demo\MyWebApi\Abp.Domian\obj\Debug\net6.0\Abp.Domian.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\demo\MyWebApi\Abp.Domian\obj\Debug\net6.0\Abp.Domian.dll
+C:\Users\admin\Desktop\demo\MyWebApi\Abp.Domian\obj\Debug\net6.0\ref\Abp.Domian.dll
+C:\Users\admin\Desktop\demo\MyWebApi\Abp.Domian\obj\Debug\net6.0\Abp.Domian.pdb
+C:\Users\admin\Desktop\demo\MyWebApi\Abp.Domian\obj\Debug\net6.0\Abp.Domian.csproj.AssemblyReference.cache
