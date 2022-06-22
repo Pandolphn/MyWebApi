@@ -21,6 +21,8 @@ namespace Abp.Web
            
             services.AddEndpointsApiExplorer();
             services.AddSwaggerGen();
+            //c => c.OperationFilter<HashidsOperationFilter>() 使用swagger请求时需要注入这filter把参数接受类型改成string。其他请求不影响
+
             //services.AddAuthentication("Bearer")//Scheme：指定读信息方式Bearer-
             //     .AddIdentityServerAuthentication(options => {
             //         options.Authority = "http://loaclhost:5092";//ids4的地址-专门获取公钥

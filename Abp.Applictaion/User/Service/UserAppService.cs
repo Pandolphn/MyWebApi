@@ -25,13 +25,12 @@ namespace Abp.Applictaion.User
 
             var user= await _repository.GetAsync(m=>m.UserNo==userNo &&m.Password==password) ;
              return ObjectMapper.Map<Users,UserDto>(user);
-        }
+        } 
 
-        public UserDto Get1()
+        public async Task<UserDto> GetUserById(int id)
         {
-            var user = new UserDto() {   Password = "123" };
-
-            return   user ;
+            var user = await _repository.GetAsync(m =>m.Id==id);
+            return ObjectMapper.Map<Users, UserDto>(user);
         }
 
         /// <summary>
