@@ -1,5 +1,6 @@
 ﻿
 using Abp.Applictaion;
+using Microsoft.Extensions.Options;
 using Volo.Abp;
 using Volo.Abp.AspNetCore.Mvc;
 using Volo.Abp.Autofac;
@@ -17,7 +18,7 @@ namespace Abp.Web
         public override void ConfigureServices(ServiceConfigurationContext context)
         {
             var services=context.Services;
-            services.AddControllers();
+           
             services.AddEndpointsApiExplorer();
             services.AddSwaggerGen();
             //services.AddAuthentication("Bearer")//Scheme：指定读信息方式Bearer-
@@ -26,6 +27,10 @@ namespace Abp.Web
             //         options.ApiName = "UserApi";
             //         options.RequireHttpsMetadata = false;
             //     });
+            services.AddHashids(options => {
+                options.MinHashLength = 6;
+                options.Salt = "MyAbpDemo";
+            }).AddControllers(); 
             base.ConfigureServices(context);
         }
         public override void OnApplicationInitialization(ApplicationInitializationContext context)
@@ -40,7 +45,7 @@ namespace Abp.Web
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
-
+            
 
             app.UseHttpsRedirection();
 

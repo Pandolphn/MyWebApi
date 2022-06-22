@@ -11,8 +11,8 @@ using Volo.Abp.EntityFrameworkCore;
 namespace MyAbp.EntityFrameworkCore.Migrations
 {
     [DbContext(typeof(AbpDbContext))]
-    [Migration("20220619165035_i1")]
-    partial class i1
+    [Migration("20220621180824_i")]
+    partial class i
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -21,6 +21,21 @@ namespace MyAbp.EntityFrameworkCore.Migrations
                 .HasAnnotation("_Abp_DatabaseProvider", EfCoreDatabaseProvider.MySql)
                 .HasAnnotation("ProductVersion", "6.0.5")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
+
+            modelBuilder.Entity("Abp.Domian.UserInfo.Roles", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<string>("RoleName")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Roles");
+                });
 
             modelBuilder.Entity("Abp.Domian.UserInfo.Users", b =>
                 {

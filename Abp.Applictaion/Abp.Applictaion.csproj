@@ -8,9 +8,12 @@
 
   <ItemGroup>
     <Compile Remove="Class1.cs" />
+    <Compile Remove="User\Dto\CustomerDto.cs" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="AspNetCore.Hashids.Int64" Version="2.0.2" />
+    <PackageReference Include="System.Security.Permissions" Version="6.0.0" />
     <PackageReference Include="Volo.Abp.AspNetCore" Version="5.3.0" />
     <PackageReference Include="Volo.Abp.AutoMapper" Version="5.3.0" />
     <PackageReference Include="Volo.Abp.Ddd.Application" Version="5.3.0" />

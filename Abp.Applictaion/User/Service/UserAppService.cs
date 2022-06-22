@@ -26,6 +26,14 @@ namespace Abp.Applictaion.User
             var user= await _repository.GetAsync(m=>m.UserNo==userNo &&m.Password==password) ;
              return ObjectMapper.Map<Users,UserDto>(user);
         }
+
+        public UserDto Get1()
+        {
+            var user = new UserDto() {   Password = "123" };
+
+            return   user ;
+        }
+
         /// <summary>
         /// virtual开启工作单元模式
         /// 非应用服务 声明[UnitOfWork]特性

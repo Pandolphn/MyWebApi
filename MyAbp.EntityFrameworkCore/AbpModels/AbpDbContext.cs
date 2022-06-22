@@ -14,6 +14,7 @@ namespace MyAbp.EntityFrameworkCore.AbpModels
     public class AbpDbContext : AbpDbContext<AbpDbContext>
     {
         public DbSet<Users> Users { get; set; }
+        public DbSet<Roles> Roles { get; set; }
         public AbpDbContext(DbContextOptions<AbpDbContext> options) : base(options)
         {
         }

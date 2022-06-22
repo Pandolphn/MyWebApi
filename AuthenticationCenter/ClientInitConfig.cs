@@ -39,10 +39,13 @@ public class ClientInitConfig
 
     public static IEnumerable<ApiResource> GetApiResources()
     {
-        return new[] { 
+        return new[] {
             new ApiResource ("UserApi", "用户获取API"){
                 Scopes={"scope1"}
             }
         };
+        //return new[] {
+        //    new ApiResource(OAuthCofig.)
+        //};
     }
 }

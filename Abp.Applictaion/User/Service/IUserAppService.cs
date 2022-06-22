@@ -12,5 +12,6 @@ namespace Abp.Applictaion.User
     public interface IUserAppService:IApplicationService
     {
             Task<UserDto> Get(string userNo, string password);
+        UserDto Get1( );
     }
 }

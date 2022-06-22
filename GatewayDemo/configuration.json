@@ -43,6 +43,20 @@
 
   "Routes": [
     {
+      "DownstreamPathTemplate": "/api/Login", //服务地址
+      "DpwmstreamScheme": "http",
+      "UpstreamPathTemplate": "/Login", //网关地址
+      "UpsteamHttpMethod": [ "Post" ],
+      "UseServiceDiscovery": true,
+      "ServiceName": "MainWebService", //consul服务名称
+      "LoadBalanceOptions": {
+        "Type": "RoundRobin" //轮询
+        //LeastConnection 最少链接数服务器
+        //NoLoadBalance 不负载均衡
+        //CookieStickySessions 会话粘滞
+      }
+    },
+    {
       "DownstreamPathTemplate": "/api/{url}", //服务地址
       "DpwmstreamScheme": "http",
       "UpstreamPathTemplate": "/T/{url}", //网关地址

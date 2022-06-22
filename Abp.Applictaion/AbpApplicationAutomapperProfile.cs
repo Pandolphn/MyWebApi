@@ -13,7 +13,7 @@ namespace Abp.Applictaion
     {
         public AbpApplicationAutomapperProfile()
         {
-            CreateMap<Users, UserDto>();
+             CreateMap<Users, UserDto>();
         }
     }
 }

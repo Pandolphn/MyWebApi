@@ -55,7 +55,27 @@
       "ProjectGuid": "be085630-e978-4606-8081-2557c3c08e86",
       "DisplayName": "MyAbp.EntityFrameworkCore",
       "ColorIndex": 9
+    },
+    "3f197cf2-2276-474f-b45b-75253d184c36": {
+      "ProjectGuid": "3f197cf2-2276-474f-b45b-75253d184c36",
+      "DisplayName": "AuthenticationCenter",
+      "ColorIndex": 10
+    },
+    "8d99249d-6afa-4139-8272-06a6b69f1129": {
+      "ProjectGuid": "8d99249d-6afa-4139-8272-06a6b69f1129",
+      "DisplayName": "GatewayDemo",
+      "ColorIndex": 11
+    },
+    "fa583252-b628-4124-bf0d-aa46983c1313": {
+      "ProjectGuid": "fa583252-b628-4124-bf0d-aa46983c1313",
+      "DisplayName": "AuthenticationCenter",
+      "ColorIndex": 12
+    },
+    "4e4bda46-2ee0-45ee-aa77-441954c3de2c": {
+      "ProjectGuid": "4e4bda46-2ee0-45ee-aa77-441954c3de2c",
+      "DisplayName": "AuthenticationCenter",
+      "ColorIndex": 13
     }
   },
-  "NextColorIndex": 10
+  "NextColorIndex": 14
 }

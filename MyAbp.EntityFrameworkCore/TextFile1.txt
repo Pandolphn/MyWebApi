@@ -14,3 +14,7 @@
 
   Scaffold-DbContext -Force "Server=.;Database=DbName;User ID=sa;Password=123;" Microsoft.EntityFrameworkCore.SqlServer
   -OutputDir Models
+
+  add-migration i1
+  update-database
+  Remove-migration
