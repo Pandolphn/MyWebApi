@@ -408,6 +408,14 @@
               "target": "Package",
               "version": "[6.0.0, )"
             },
+            "Portable.BouncyCastle": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "System.Composition.AttributedModel": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "log4net": {
               "target": "Package",
               "version": "[2.0.14, )"

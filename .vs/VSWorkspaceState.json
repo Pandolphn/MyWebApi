@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Abp.Applictaion",
+    "\\Abp.Applictaion\\User",
+    "\\Abp.Domian",
+    "\\Abp.Domian\\UserInfo",
+    "\\Abp.Domian\\UserInfo\\ValueObject"
+  ],
+  "PreviewInSolutionExplorer": false
+}

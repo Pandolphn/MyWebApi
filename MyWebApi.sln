@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abp.Web", "Abp.Web\Abp.Web.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyAbp.EntityFrameworkCore", "MyAbp.EntityFrameworkCore\MyAbp.EntityFrameworkCore.csproj", "{BE085630-E978-4606-8081-2557C3C08E86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GatewayDemo", "GatewayDemo\GatewayDemo.csproj", "{8D99249D-6AFA-4139-8272-06A6B69F1129}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GatewayDemo", "GatewayDemo\GatewayDemo.csproj", "{8D99249D-6AFA-4139-8272-06A6B69F1129}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthenticationCenter", "AuthenticationCenter\AuthenticationCenter.csproj", "{4E4BDA46-2EE0-45EE-AA77-441954C3DE2C}"
 EndProject

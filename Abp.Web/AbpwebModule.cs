@@ -1,6 +1,7 @@
 ﻿
 using Abp.Applictaion;
 using Microsoft.Extensions.Options;
+using Utility.RAS;
 using Volo.Abp;
 using Volo.Abp.AspNetCore.Mvc;
 using Volo.Abp.Autofac;
@@ -21,7 +22,7 @@ namespace Abp.Web
            
             services.AddEndpointsApiExplorer();
             services.AddSwaggerGen();
-            //c => c.OperationFilter<HashidsOperationFilter>() 使用swagger请求时需要注入这filter把参数接受类型改成string。其他请求不影响
+
 
             //services.AddAuthentication("Bearer")//Scheme：指定读信息方式Bearer-
             //     .AddIdentityServerAuthentication(options => {
@@ -29,10 +30,16 @@ namespace Abp.Web
             //         options.ApiName = "UserApi";
             //         options.RequireHttpsMetadata = false;
             //     });
+
+            //hashid
+            //c => c.OperationFilter<HashidsOperationFilter>() 使用swagger请求时需要注入这filter把参数接受类型改成string。其他请求不影响
             services.AddHashids(options => {
                 options.MinHashLength = 6;
                 options.Salt = "MyAbpDemo";
-            }).AddControllers(); 
+            }).AddControllers();
+
+            //ras单例
+            services.AddSingleton<IRSAHelper, RSAHelper> ();
             base.ConfigureServices(context);
         }
         public override void OnApplicationInitialization(ApplicationInitializationContext context)

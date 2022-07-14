@@ -7,7 +7,7 @@ using Volo.Abp.Domain.Values;
 
 namespace Abp.Domian.UserInfo
 {
-    public class UserRole :ValueObject 
+    public class UserRole :ValueObject  
     {
         public int UserId { get; set; }
         public int RoleId { get; set; }
